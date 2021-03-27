@@ -1,0 +1,93 @@
+body {
+    background-color: #42a5f5;
+  }
+
+  h1{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .row {
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+  }
+  
+  .digit,
+  .dig {
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .key {
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .sub {
+    font-size: 0.8rem;
+    color: grey;
+  }
+  
+  .container {
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    margin: 30px auto;
+    height: 420px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  #output {
+    font-family: "Exo";
+    font-size: 2rem;
+    height: 60px;
+    font-weight: bold;
+    color: #1976d2;
+  }
+  
+  #send {
+    display: inline-block;
+    background-color: #66bb6a;
+    padding: 4px 7px;
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .botrow {
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+  }
+  
+  .digit:active,
+  .dig:active {
+    background-color: #e6e6e6;
+  }
+  
+  #send:hover {
+    background-color: #81c784;
+  }
+  
+  .dig {
+    float: left;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+  }
